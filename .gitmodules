@@ -1,0 +1,3 @@
+[submodule "packages/autoform-ionic"]
+	path = packages/autoform-ionic
+	url = https://github.com/meteoric/autoform-ionic

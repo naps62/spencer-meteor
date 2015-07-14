@@ -1,0 +1,14 @@
++contentFor "headerTitle"
+  h1.title Your Expenses
+
++contentFor "headerButtonRight"
+  a(href="{{pathFor 'expenses.new'}}" class="button button-clear")
+    +ionIcon icon="ios-plus-empty"
+
++ionView
+  +ionContent
+    +ionList
+      +each expenses
+        +ionItem
+          h2 #{name}
+          p #{value}
