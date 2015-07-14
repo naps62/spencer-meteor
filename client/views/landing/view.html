@@ -1,0 +1,21 @@
+<template name="landing">
+  {{#contentFor "headerButtonLeft" }}
+    <a href="{{pathFor 'dashboard'}}" class="button button-clear">Dashboard</a>
+  {{/contentFor}}
+
+  {{#contentFor "headerButtonRight" }}
+    <a href="{{pathFor 'dashboard'}}" class="button button-clear">Dashboard</a>
+  {{/contentFor}}
+
+  {{#ionView}}
+    {{#ionContent class="padding" }}
+      {{#ionList}}
+        <h2>item 7</h2>
+        <h2>item 8</h2>
+        <h2>item 9</h2>
+        <h2>item 0</h2>
+      {{/ionList}}
+    {{/ionContent}}
+  {{/ionView}}
+
+</template>
