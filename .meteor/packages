@@ -7,14 +7,10 @@
 meteor-platform
 iron:router
 fourseven:scss@2.0.0
-meteoric:ionic
-meteoric:ionic-sass
-meteoric:ionicons-sass
-mquandalle:jade
 aldeed:simple-schema
 aldeed:collection2
 aldeed:autoform
-meteoric:autoform-ionic
 aldeed:template-extension
 accounts-ui
 accounts-password
+mquandalle:bower

@@ -1,0 +1,13 @@
+<template name="expenses">
+  <h1>Your Expenses</h1>
+
+  <ul class="collection">
+    {{#each expenses}}
+      <li class="collection-item">
+        <h2>{{name}}</h2>
+
+        <div class="secondary-content">{{value}}</div>
+      </li>
+    {{/each}}
+  </ul>
+</template>

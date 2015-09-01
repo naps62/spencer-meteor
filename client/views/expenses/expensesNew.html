@@ -1,0 +1,10 @@
+<template name="expensesNew">
+  <h1>New Expense</h1>
+
+  {{#autoForm schema=expenseSchema collection="Expenses" id="newExpenseForm" type="insert"}}
+    {{afQuickField name='value'}}
+    {{afQuickField name='tags'}}
+    {{afQuickField name='notes'}}
+    <button type="submit">Save</button>
+  {{/autoForm}}
+</template>

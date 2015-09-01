@@ -1,9 +1,0 @@
-+contentFor "headerTitle"
-  h1.title New Expense
-
-+contentFor "headerButtonLeft"
-  +ionNavBackButton path="expenses" text="All"
-
-+ionView
-  +ionContent
-    +quickForm collection="Expenses" id="newExpenseForm" type="insert" omitFields="userId"
